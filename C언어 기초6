@@ -2,12 +2,12 @@
 int main()
 {
 	int num;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À ==> ");
+	printf("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ ==> ");
 	scanf("%d", &num);
 
 	if (num > 0)
-		printf("À½¼ö\n");
+		printf("ìŒìˆ˜\n");
 	else 
-		printf("¾ç¼ö\n");
+		printf("ì–‘ìˆ˜\n");
 	return 0;
 }
