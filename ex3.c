@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	//변수 선언_제대로 된 변수 자료형태값 넣기
+	int n1, n2;
+	double result;
+	//입력
+	printf("두 정수를 입력하시오 ==>");
+	scanf("%d %d", &n1, &n2);
+	//출력
+	result = (double)n1 / n2;
+
+	if (n2 == 0)
+		printf("0으로 나눌 수 없습니다.");
+	else
+		printf("나눗셈 결과는 %.2f입니다.", result);
+	return 0;
+}
