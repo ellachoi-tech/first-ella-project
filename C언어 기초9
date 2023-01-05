@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	//º¯¼ö ¼±¾ğ
+	//ë³€ìˆ˜ ì„ ì–¸
 	int opt;
 	double num1, num2;
 	double result;
 	
-	printf("<1>µ¡¼À <2>»¬¼À <3>°ö¼À <4>³ª´°¼À Áß °í¸£½Ã¿À.");
+	printf("<1>ë§ì…ˆ <2>ëº„ì…ˆ <3>ê³±ì…ˆ <4>ë‚˜ëˆ—ì…ˆ ì¤‘ ê³ ë¥´ì‹œì˜¤.");
 	scanf("%d", &opt);
-	printf("µÎ ¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+	printf("ë‘ ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 	scanf("%f %f", &num1, &num2);
 
 	if (opt == 1)
@@ -20,7 +20,7 @@ int main()
 	else
 		result = num1 / num2;
 
-	//Ãâ·Â
-	printf("°á°ú´Â %fÀÔ´Ï´Ù", result);
+	//ì¶œë ¥
+	printf("ê²°ê³¼ëŠ” %fì…ë‹ˆë‹¤", result);
 	return 0;
 }
