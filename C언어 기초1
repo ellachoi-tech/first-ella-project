@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-	//º¯¼ö ¼±¾ğ ¹× ÃÊ±âÈ­
+	//ë³€ìˆ˜ ì„ ì–¸ ë° ì´ˆê¸°í™”
 	int bread, count, rest;
 	double maxcount;
 
@@ -9,7 +9,7 @@ int main(void)
 	count = 2;
 	maxcount = bread / count;
 	rest = bread % count;
-	// Ãâ·ÂÇØÁÖ±â
+	// ì¶œë ¥í•´ì£¼ê¸°
 	printf("bread : %d\n", bread);
 	printf("count : %d\n", count);
 	printf("maxcount : %f\n", maxcount);
