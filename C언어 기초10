@@ -2,11 +2,11 @@
 #define PRICE 20000
 int main()
 {
-	//º¯¼ö ¼±¾ğ
+	//ë³€ìˆ˜ ì„ ì–¸
 	int age;
 	double result;
-	//Ãâ·Â
-	printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+	//ì¶œë ¥
+	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf("%d", &age);
 	if (age < 8)
 		result = 0;
@@ -15,6 +15,6 @@ int main()
 	else 
 		result = (int)(PRICE * 0.5);
 
-	printf("´ç½ÅÀÌ ³»¾ßÇÒ ±İ¾×Àº %d¿øÀÔ´Ï´Ù", result);
+	printf("ë‹¹ì‹ ì´ ë‚´ì•¼í•  ê¸ˆì•¡ì€ %dì›ì…ë‹ˆë‹¤", result);
 	return 0;
 }
